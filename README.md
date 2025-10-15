@@ -3,13 +3,13 @@
 ![Modern & Minimalist Next.js Portfolio.](/.github/images/img_main.png "Modern & Minimalist Next.js Portfolio.")
 
 [![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/locknguyen "Ask Me Anything!")
-[![GitHub license](https://img.shields.io/github/license/locknguyen/next-portfolio)](https://github.com/locknguyen/next-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/locknguyen/next-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://badgen.net/github/branches/locknguyen/next-portfolio)](https://github.com/locknguyen/next-portfolio/branches "GitHub branches")
-[![Github commits](https://badgen.net/github/commits/locknguyen/next-portfolio/main)](https://github.com/locknguyen/next-portfolio/commits "Github commits")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c26959a9-0124-4f3c-87ac-0cd3e6de5ab4/deploy-status)](https://portfolionext-js.netlify.app/ "Netlify Status")
-[![GitHub issues](https://img.shields.io/github/issues/locknguyen/next-portfolio)](https://github.com/locknguyen/next-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/locknguyen/next-portfolio)](https://github.com/locknguyen/next-portfolio/pulls "GitHub pull requests")
+[![GitHub license](https://img.shields.io/github/license/locknguyen/Modern-Portfolio-Website)](https://github.com/locknguyen/Modern-Portfolio-Website/blob/main/LICENSE "GitHub license")
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/locknguyen/Modern-Portfolio-Website/commits/main "Maintenance")
+[![GitHub branches](https://badgen.net/github/branches/locknguyen/Modern-Portfolio-Website)](https://github.com/locknguyen/Modern-Portfolio-Website/branches "GitHub branches")
+[![Github commits](https://badgen.net/github/commits/locknguyen/Modern-Portfolio-Website/main)](https://github.com/locknguyen/Modern-Portfolio-Website/commits "Github commits")
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c26959a9-0124-4f3c-87ac-0cd3e6de5ab4/deploy-status)](https://loc-nguyen.netlify.app/ "Netlify Status")
+[![GitHub issues](https://img.shields.io/github/issues/locknguyen/Modern-Portfolio-Website)](https://github.com/locknguyen/Modern-Portfolio-Website/issues "GitHub issues")
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/locknguyen/Modern-Portfolio-Website)](https://github.com/locknguyen/Modern-Portfolio-Website/pulls "GitHub pull requests")
 
 ## ⚠️ Before you start
 
@@ -47,7 +47,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 ## :rocket: Follow Me
 
 [![GitHub followers](https://img.shields.io/github/followers/locknguyen?style=social&label=Follow&maxAge=2592000)](https://github.com/locknguyen "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/locknguyen/next-portfolio "Tweet")
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/locknguyen/Modern-Portfolio-Website "Tweet")
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@OPGAMER. "Subscribe my Channel")
 
 ## :books: Learn More
@@ -73,10 +73,10 @@ You can also give this repository a star to show more people and they can use th
 
 ## :star2: Star History
 
-<a href="https://star-history.com/#locknguyen/next-portfolio&Timeline">
+<a href="https://star-history.com/#locknguyen/Modern-Portfolio-Website&Timeline">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=locknguyen/next-portfolio&type=Timeline&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=locknguyen/next-portfolio&type=Timeline" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=locknguyen/next-portfolio&type=Timeline" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=locknguyen/Modern-Portfolio-Website&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=locknguyen/Modern-Portfolio-Website&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=locknguyen/Modern-Portfolio-Website&type=Timeline" />
   </picture>
 </a>

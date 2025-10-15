@@ -33,11 +33,11 @@ export const Hero = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Using AI and Automations to Save Enterprises 450+ Hours"
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Hi, I&apos;m {links.ownerName}, a Next.js developer based in India.
+            Hello, I&apos;m {links.ownerName}! 😄👋 I work with teams to solve business pain-points using viable solutions.
           </p>
 
           <Link href="#about" className="md:mt-10">

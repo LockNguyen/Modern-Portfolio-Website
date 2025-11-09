@@ -8,9 +8,13 @@ import { cn } from "@/lib/utils";
 export const TextGenerateEffect = ({
   words,
   className,
+  startGalaxyColorIndex,
+  endGalaxyColorIndex
 }: {
   words: string;
   className?: string;
+  startGalaxyColorIndex?: number;
+  endGalaxyColorIndex?: number;
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
@@ -34,7 +38,8 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className={cn("text-white opacity-0", idx > 6 && "text-purple")}
+              data-text={word}
+              className={cn("text-white opacity-0", (startGalaxyColorIndex != null && endGalaxyColorIndex != null && idx >= startGalaxyColorIndex && idx <= endGalaxyColorIndex) && "text-galaxy")}
             >
               {word}{" "}
             </motion.span>
@@ -46,10 +51,8 @@ export const TextGenerateEffect = ({
 
   return (
     <div className={cn("font-bold", className)}>
-      <div className="my-4">
-        <div className="leading-snug tracking-wide text-black dark:text-white">
-          {renderWords()}
-        </div>
+      <div className="leading-snug tracking-wide text-black dark:text-white">
+        {renderWords()}
       </div>
     </div>
   );

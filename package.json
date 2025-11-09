@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Loc Nguyen",
+    "email": "loc.software.dev@gmail.com",
+    "url": "https://github.com/locknguyen"
   },
   "description": "Modern & Minimalist Next.js Portfolio.",
   "keywords": [
@@ -57,12 +57,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/next-portfolio.git"
+    "url": "https://github.com/LockNguyen/next-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/next-portfolio#readme",
+  "homepage": "https://github.com/LockNguyen/next-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/next-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/LockNguyen/next-portfolio/issues",
+    "email": "loc.software.dev@gmail.com"
   },
   "funding": [
     {

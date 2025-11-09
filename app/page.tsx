@@ -1,6 +1,7 @@
 import { Approach } from "@/components/approach";
 import { Clients } from "@/components/clients";
 import { Experience } from "@/components/experience";
+import { RecentExperience } from "@/components/recent-experience";
 import { Footer } from "@/components/footer";
 import { Grid } from "@/components/grid";
 import { Hero } from "@/components/hero";
@@ -13,12 +14,13 @@ const MainPage = () => {
     <main className="relative mx-auto flex flex-col items-center justify-center overflow-clip bg-black-100 px-5 sm:px-10">
       <FloatingNav navItems={navItems} />
 
-      <div className="w-full max-w-7xl">
+      <div className="w-full md:max-w-3xl lg:max-w-5xl">
         <Hero />
-        <Grid />
-        <RecentProjects />
+        {/* <Grid /> */}
+        {/* <Experience /> */}
+        <RecentExperience />
+        {/* <RecentProjects /> */}
         <Clients />
-        <Experience />
         <Approach />
         <Footer />
       </div>

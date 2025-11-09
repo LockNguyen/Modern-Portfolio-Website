@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+import "@/app/globals.css";
 
 import { navItems } from "@/data";
 import { cn } from "@/lib/utils";
@@ -25,14 +26,10 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
 
   useMotionValueEvent(scrollY, "change", (current) => {
     if (typeof current === "number") {
-       if (current < 50) {
-        setVisible(true);
-      } else {
-        if (current > lastScrollY) {
+      if (current > lastScrollY) {
           setVisible(false); // Scrolling down
-        } else {
-          setVisible(true); // Scrolling up
-        }
+      } else {
+        setVisible(true); // Scrolling up
       }
       setLastScrollY(current);
     }
@@ -43,31 +40,33 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
       <motion.nav
         initial={{
           opacity: 1,
-          y: -100,
+          y: 5,
+          filter: "none",
         }}
         animate={{
-          y: visible ? 0 : -100,
+          y: visible ? 0 : 5,
           opacity: visible ? 1 : 0,
+          filter: visible? "none" : "blur(5px)",
         }}
         transition={{
           duration: 0.3,
           ease: "easeInOut"
         }}
         className={cn(
-          "fixed inset-x-0 top-10 z-[5000] mx-auto flex max-w-fit items-center justify-center space-x-4 rounded-3xl border border-white/[0.2] bg-black-100 px-10 py-5 backdrop-blur-lg bg-transparent shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]",
+          "fixed inset-x-0 top-10 z-[5000] mx-auto flex max-w-fit items-center justify-center space-x-4 rounded-full bg-black-100 px-10 py-4 backdrop-blur-lg bg-transparent saturate-150 lighting-glass",
           className
         )}
       >
         {navItems.map((navItem: any, idx: number) => (
-          <Link
+          <a
             key={`link-${idx}`}
             href={navItem.link}
             className={cn(
-              "relative flex items-center space-x-1 text-neutral-600 hover:text-neutral-500 dark:text-neutral-50 dark:hover:text-neutral-300"
+              "relative flex items-center space-x-1 text-neutral-600 hover:text-blue-700 dark:text-neutral-50 dark:hover:text-galaxy"
             )}
           >
             <span className="!cursor-pointer text-sm">{navItem.name}</span>
-          </Link>
+          </a>
         ))}
       </motion.nav>
     </AnimatePresence>

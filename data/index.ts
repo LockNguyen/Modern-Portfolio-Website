@@ -10,17 +10,17 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Saving 450+ hours for enterprises using AI and automations",
+    title: "2+ years of experience developing fullstack apps.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/achievements/coding.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "Improving uptime for 700+ users world-wide",
+    title: "Improved uptime for 700+ users world-wide.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "AI enthusiast with a passion for development.",
+    title: "Saved 450+ hours for enterprises using AI and automations.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -171,6 +171,45 @@ export const companies = [
   },
 ] as const;
 
+export const recentExperience = [
+  {
+    id: 1,
+    title: "Software Engineer, OneHope",
+    des: "Cut load time by 60% for 700+ global staffs by implementing an in-house APM solution while ensuring smooth user experience (0% slow-down).",
+    img: "/achievements/onehopeCoding.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://clone-figmaa.netlify.app",
+    sourceCode: "https://github.com/sanidhyy/figma-clone",
+  },
+  {
+    id: 2,
+    title: "Software Engineer, Liberty University",
+    des: "Enabled 700+ new student admissions, saved 270+ staff hours, and cut multi-year project into 1 month by designing a Python-Selenium automation system to update 8,000+ inventory records.",
+    img: "/p2.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://clone-yoom.netlify.app",
+    sourceCode: "https://github.com/sanidhyy/zoom-clone",
+  },
+  {
+    id: 3,
+    title: "President, Software Development Club",
+    des: "Grew club membership by 300% by designing and delivering 16 technical workshops on cloud integration, APIs, and fullstack apps (C#.NET, REST APIs, React, and Agile methodology).",
+    img: "/achievements/softwareClubPresidency.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://ai-imaginify.netlify.app",
+    sourceCode: "https://github.com/sanidhyy/imaginify",
+  },
+  {
+    id: 4,
+    title: "Animated Apple Iphone 3D Website",
+    des: "Upskilled 53+ STEM students in AI/ML by delivering 6 workshops on data visualization, Computer Vision, and Natural Language Processing and mentored 30+ students to earn AI certificates.",
+    img: "/achievements/aiResearchPoster.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://app-iphone.netlify.app",
+    sourceCode: "https://github.com/sanidhyy/apple-clone",
+  },
+] as const;
+
 export const workExperience = [
   {
     id: 1,
@@ -206,7 +245,7 @@ export const socialMedia = [
   {
     name: "GitHub",
     img: "/git.svg",
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/LockNguyen",
   },
   {
     name: "Twitter",
@@ -216,7 +255,7 @@ export const socialMedia = [
   {
     name: "LinkedIn",
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/Lock-Nguyen",
   },
 ] as const;
 

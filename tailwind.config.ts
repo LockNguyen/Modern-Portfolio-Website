@@ -23,6 +23,9 @@ const config = {
       },
     },
     extend: {
+      blur: {
+        xs: '4px', // enables class "blur-xs"
+      },
       colors: {
         black: {
           DEFAULT: "#000",

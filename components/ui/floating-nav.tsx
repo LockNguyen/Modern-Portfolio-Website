@@ -6,7 +6,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
-import Link from "next/link";
+// import Link from "next/link";
 import { useState } from "react";
 import "@/app/globals.css";
 

@@ -21,7 +21,7 @@ export const Hero = () => {
         />
         <Spotlight
           className="left-80 top-24 h-[80vh] w-[50vw]"
-          fill="blue" 
+          fill="blue"
         />
       </div>
 
@@ -34,28 +34,24 @@ export const Hero = () => {
         {/* Name & Titles */}
         <div className="z-10 col-span-3 sm:col-span-2 flex max-w-[89vw] flex-col md:max-w-2xl lg:max-w-[60vw]">
           <h2 className="max-w-80 text-xs uppercase tracking-widest text-blue-100">
-            Software Engineer
+            TODO: Insert tech stack icons
           </h2>
 
           <div className="flex flex-wrap my-4">
             <TextGenerateEffect
-              className="text-[40px] md:text-5xl lg:text-6xl whitespace-nowrap"
-              words="Hi, I'm&nbsp;"
-            />
-            <TextGenerateEffect
-              className="text-[40px] md:text-5xl lg:text-6xl whitespace-nowrap"
-              words="Loc Nguyen"
-              startGalaxyColorIndex={0}
-              endGalaxyColorIndex={1}
+              className="text-[40px] md:text-5xl lg:text-6xl whitespace-wrap"
+              words="Hi, I'm Loc 😄👋"
+              startGalaxyColorIndex={2}
+              endGalaxyColorIndex={2}
             />
           </div>
 
           <div className="flex flex-wrap mb-4">
             <p className="text-sm md:text-lg md:tracking-wider lg:text-2xl">
-              I build fullstack apps +&nbsp;
+              I create websites, apps, and automations&nbsp;
             </p>
             <p className="text-sm md:text-lg md:tracking-wider lg:text-2xl">
-              create automations that save 450+ hours.
+              that solved business problems and saved 450+ hours!
             </p>
           </div>
 
@@ -70,10 +66,10 @@ export const Hero = () => {
         </div>
 
         {/* SICK Profile Picture (except on small screens) */}
-        <div className="col-span-1 z-0 absolute left-auto right-0 -top-[25%] sm:left-[8rem] sm:-top-[75%] sm:right-auto md:left-auto md:-right-[10%] md:-top-[15%] h-[110%] w-1/2">
+        <div className="col-span-1 z-0 absolute left-auto right-0 -top-[50%] sm:left-[8rem] sm:-top-[75%] sm:right-auto md:left-auto md:-right-[10%] md:-top-[25%] h-[170%] w-1/2">
           <Image
-            src="/profilePictureTransparent.png"
-            alt="profilePictureTransparent"
+            src="/profilePictureThinkingTransparent.png"
+            alt="profilePictureThinkingTransparent"
             fill // Image will fill the parent div
             style={{ objectFit: 'contain' }}
             className="opacity-80 sm:opacity-90 [mask-image:linear-gradient(black_60%,transparent_80%)] sm:[mask-image:linear-gradient(black_60%,transparent_90%)]"
